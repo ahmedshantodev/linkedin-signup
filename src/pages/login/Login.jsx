@@ -202,7 +202,7 @@ const Registration = () => {
                   sx={{
                     textTransform: "capitalize",
                     position: "absolute",
-                    top: "102%",
+                    top: "101%",
                     left: "3px",
                     color: "red",
                   }}
@@ -219,7 +219,7 @@ const Registration = () => {
                 </Alert>
               )}
             </Box>
-            <Typography sx={{ textAlign: "start", mt: "10px" }}>
+            <Typography sx={{ textAlign: "start", mt: "18px" }}>
               <Link to={"/forgot-password"}>Forgot password?</Link>
             </Typography>
           </Box>
